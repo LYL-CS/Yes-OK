@@ -1,0 +1,5 @@
+1、color 文本颜色
+2、text-align 文本对齐 设定文字水平的对齐方式
+3、text-index 文本缩进  2em
+4、text-decoration 文本修饰  underline下划线  none 取消下划线
+5、line-height 行高 控制行与行之间的距离
