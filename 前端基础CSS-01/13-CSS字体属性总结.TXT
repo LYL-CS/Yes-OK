@@ -1,0 +1,5 @@
+1、font-style 字体样式，italic斜体，normal
+2、font-weight 字体粗细，加粗是700或bold，不加粗是normal或400
+3、font-size  px像素单位
+4、font-family: 字体
+5、font 字体连写 有顺序，不能随意换位置，字号和字体必须出现
