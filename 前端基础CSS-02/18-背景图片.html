@@ -10,6 +10,25 @@
             width: 900px;
             height: 900px;
             background-image: url(image/timg.jpg);
+            /* 1、背景图片不平铺 */
+            background-repeat: no-repeat;
+            /* 2、默认情况下，背景图片是平铺的 */
+            /* background-repeat: repeat-x; */
+            /* 3、沿着x轴平铺 */
+            /* background-repeat: repeat-y; */
+            /* 4、沿着y轴平铺 */
+            background-color: red;
+            /* 页面元素既可以添加背景颜色，又可以添加背景图片，只不过背景图片会压住背景颜色 */
+
+            /* background-position: 方位名词; */
+            /* background-position: center top; */
+            /* background-position: right center; */
+            /* 如果是方位名词 right center 和center right 效果一样，跟顺序没有关系 */
+            /* background-position: center right; */
+            /* 此时 水平一定是靠右侧对齐  第二个参数省略  y轴是垂直居中对齐的 */
+            /* background-position: right; */
+            /* 此时第一个参数一定是top y轴顶部对齐 第二个参数省略x轴 是水平居中对齐的 */
+            background-position: top;
         }
     </style>
 </head>
