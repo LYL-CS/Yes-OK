@@ -1,0 +1,7 @@
+backgroud-color		背景颜色		预定义的颜色值/十六进制/RGB代码
+backgroud-image		背景图片		url（图片路径）
+backgroud-repeat		是否平铺		repeat/no-repeat/repeat-x/repeat-y
+backgroud-position		背景位置		length/position	分别是x和y坐标
+backgroud-attachment	背景附着		scroll（背景滚动）/fixed（背景固定）
+背景简写		书写更简单	背景颜色 背景图片地址 背景平铺 背景滚动 背景位置；
+背景半透明	背景颜色半透明	backgroud：rgba（0，0，0，0.3）；后面必须是四个值
