@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* 父亲的权重是100 */
+        #fahter {
+            color: red !important;
+        }
+
+        /* p的继承权重为0 */
+        p {
+            color: pink;
+        }
+
+        body {
+            color: red;
+        }
+
+        /* a链接浏览器默认制定了一个样式 蓝色的有下划线 a{color: blue;} */
+        a {
+            color: green;
+        }
+
+        /* 优先级：
+         1、！important；           无穷大
+         2、行内样式style=""        1，0，0，0
+         3、ID选择器                0，1，0，0
+         4、类选择器、伪类选择器     0，0，1，0
+         5、元素选择器              0，0，0，1
+         6、继承 或者 *             0，0，0，0
+         注意：继承的权重是0 */
+    </style>
+</head>
+
+<body>
+    <div id="father">
+        <p>你笑起来真好看</p>
+    </div>
+    <a href="#">我是单独的样式</a>
+</body>
+
+</html>
